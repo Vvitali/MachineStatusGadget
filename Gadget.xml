@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<gadget>
+ <name>Machine status</name>
+ <version>1.0.1232</version>
+ <hosts>
+  <host name="wdenms">
+   <base type="HTML" apiVersion="1.0.0" src="main.html" />
+   <permissions>Full</permissions>
+   <platform minPlatformVersion="1.0" />
+  </host>
+ </hosts>
+  <icons>
+    <icon width="64" height="64" src="icon.png" />
+  </icons> 
+ <author name="cvs">
+  <info url="http://vvitali.tk" />
+ </author>
+ <description>Machine status vidget</description>
+</gadget>
